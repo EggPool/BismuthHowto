@@ -24,3 +24,11 @@ Use `tmux a` to see the miner output
 ## Step by Step with snapshots
 
 (coming)
+
+## What instances to use?
+
+P3 instances (GPU compute) are by far the most efficient.  
+They come with V100 GPU. Each GPU is almost 3GH/s  
+- p3.2xlarge = 1 GPU  
+- p3.8xlarge = 4 GPUs
+- p3.16xlarge = 8 GPUs  
