@@ -24,7 +24,7 @@ At the end of a round, the picture is more complete.
 Display is delayed of about 5 minutes.
 So, at O'6, you See data from O'0 to O'5, and so on.
 
-## What is "immature?"
+## What is "immature?"
 
 With the blockchain technology, there may be rollbacks, orphans blocks.  
 Hence, a block we found can disappear after a while. That's not frequent, but may happen.  
@@ -33,10 +33,24 @@ So, we have to be sure what we gained is solid before sharing.
 So, immature are the shares from previous round, that we did not add to your balance yet.
 They will be added at the end of the round.
 
-## I just found a share but it's not on my dashboard?
+ ## I just found a share but it's not on my dashboard?
 
 - Display is updated every 5 minutes with a 1 minute delay. A share found at 15h12 will only be visible at 15h16 for instance.
 - sometimes, you can send a stalled share. You were mining a block, but by the time you find a share and send it, another miner found the block, hence the block changed and your share is no more valid.  
 this happens for everyone, so on average, it evens out. Of course, if you only have stalled shares, then there is an issue with your miner.
 
 ## What are shares @81 and shares @94?
+
+Network diff is high. So pool diff is high, too.  
+We set it to 94. (where as network diff is > 109 as I write this)  
+With a "small" hash power (a few gpus) You may wait a long time (several minutes or hours) to get a single share at that diff. So we also display shares at diffculty 81. They are way more.  
+For each share at 94, there are like 100 at diff 81.
+
+So, the miner displays the shares found at diff 81 as a benchmarck, to show it mines.
+For 1GH/s, the miner should give you about 2 shares at 81 per minute.  
+So, 4GH/S => 8 shares at @81 per minute.
+
+If shares @81 raise, you are minning. Then it's just a question of time (and luck) to get shares @ 94.  
+(remember, on average 1 share @ 94 for 100 @ 81)
+
+Only the shares @94 are sent and count. If you do not have enough shares at 94, then you need more GPUs :)
