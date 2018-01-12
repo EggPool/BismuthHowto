@@ -4,7 +4,7 @@
 ## Linking two modules of different data layouts
 ## How to disable a specific GPU
 
-If you have a, iGPU, then the miner may find it and try to mine with it.  
+If you have an iGPU, then the miner may find it and try to mine with it.  
 This doesn't work and may crash the miner, so you have to disable this GPU.
 
 *To disable a specific GPU:*
