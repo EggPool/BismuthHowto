@@ -21,3 +21,5 @@ So, you have to also run the node on your machine, then your wallet will connect
 
 - You can chheck the transaction went through after a while, via http://bismuth.online
 
+### When I try to send my mined bismuths to cryptopia. It says invalid adress
+- Double check you didn't paste a space at beginning or end of the address
