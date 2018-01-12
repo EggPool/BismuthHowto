@@ -6,10 +6,10 @@ Target block time is 60 sec.
 
 ## Difficulty adjustment?
 
-The difficulty adjustement algo of BIS is brand new. 
+The difficulty adjustement algo of BIS is brand new.  
 You can read more in this academic paper: http://www.mic-journal.no/ABS/MIC-2017-4-1.asp
 
-In a snap : block time over a period of time too low, diff raises. 
+In a snap : block time over a period of time too low, diff raises.  
 block time too high? diff goes down.
 
 ## How to check current diff?
