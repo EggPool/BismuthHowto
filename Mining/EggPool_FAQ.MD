@@ -54,3 +54,22 @@ If shares @81 raise, you are minning. Then it's just a question of time (and luc
 (remember, on average 1 share @ 94 for 100 @ 81)
 
 Only the shares @94 are sent and count. If you do not have enough shares at 94, then you need more GPUs :)
+
+## You are greedy greeny Eggys, why such fees?
+
+> tl;dr : What really counts is what *YOU* get in the end. And you will get more at Egg after our fees than elsewhere, even solo without fee.
+
+We are aware our fees are unusual in crypto world. But, as Bismuth does, we do nothing like the others and prefer from scratch.  
+All the pool was written from scratch, and uses an innovative design, with distributed servers all other the world.
+
+When other pools run on a single vps, we have several dedicated servers. Our infra cost is way higher.
+
+Then, our miner outperforms the other ones, and the pool itself, with the same hashrate, finds more blocks than others.  
+So it ends us everyone saying  
+> "I don"t care the fees, I win more at Egg after the 10% than everywhere else with less or 0 fees".  
+
+Solo miners joined us.  
+Big mining farms joined us, because even with 10% fees, they were getting more than mining on their own private pool.  
+
+We really have a lot of such feedbacks.  
+So, don't see it as "I give fees to the pool", but as "This pool gives me more".
