@@ -31,3 +31,8 @@ An SSD is more than welcome to avoir databases lock and good response time.
 
 See this (old but still ok) doc about setting up some OS settings.
 https://EggPool.net/pdf/bismuth-open-files.pdf
+
+## Config items
+
+### What does the setting ‘nodes_ban_reset’ means exactly?
+Reset banlist if you have less than node_ban_reset active connections
