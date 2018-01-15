@@ -9,7 +9,7 @@ You may want to run a node for 2 reasons
 B/ Needs good hardware, some technical background, and a commitment to maintain that node.  
 You will have to check it's logs, update when a critical release is out, and mitigate issues you *will* face.
 
-If you are not ready to do taht, or have no idea how to do, please do not.
+If you are not ready to do that, or have no idea how to do, please do not.
 
 ## Config and config_custom.txt
 
