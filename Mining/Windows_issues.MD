@@ -7,6 +7,15 @@ See
 - https://www.raymond.cc/blog/disable-program-has-stopped-working-error-dialog-in-windows-server-2008/
 
 ## Make sure you have the latest Drivers
+
+In doubt, re-install
+
+## Windows update and miner is broken
+
+See https://forums.geforce.com/default/topic/891671/windows-10-build-10576-missing-opencl-dll/
+
+"The fix is to reinstall the driver manually after each Windows upgrade to a new build.  
+For some reason, after each upgrade, OpenCL.dll from System32 is lost."
 .
 ## Virtual Memory high enough?
 
