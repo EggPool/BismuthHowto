@@ -22,12 +22,12 @@ Those are the 3 files in your bismuth dir:
 
 Both .der files you have to take care of. Backup in a secure place, and do not, EVER, give you privkey to anyone.
 
-## And how do I protect them?
+## And how do I protect them?
 
 Your privkey is only really needed to spent from your account.  
 So, if you run a node, use one set of keys (with no BIS) to run your node, then a second set for your wallet, from another dir.
 
-## Cold wallet?
+## Cold wallet?
 
 If you want some kind of cold storage, and do not need to spent your BIS right now, you can:  
 - run a node on an airgaped machine
@@ -50,6 +50,6 @@ Told ya, bismuth ain't btc.
 TODO
 
 
-## Paper wallet?
+## Paper wallet?
 
 Several people working on it.
