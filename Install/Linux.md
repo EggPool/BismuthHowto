@@ -18,11 +18,17 @@ apt update
 apt upgrade
 ```
 
-Install pip if needed: `sudo apt install python3-pip`
+Install pip if needed:  
+```
+sudo apt install python3-pip
+```
 
-If pip complains about a new version, you can update it: `pip3 install --upgrade pip`
+> If pip complains about a new version, you can update it: `pip3 install --upgrade pip`
 
-Other goodies may be of use : `sudo apt install screen htop wget sqlite3`
+Other goodies may be of use : 
+```
+sudo apt install screen htop wget sqlite3
+```
 
 ## Fetch the source files
 
@@ -51,20 +57,28 @@ root soft nofile 65535
 root hard nofile 65535
 ...
 
-`nano /etc/sysctl.conf`  
+```
+nano /etc/sysctl.conf
+```
 Append:  
-`fs.file-max = 100000`  
-`sysctl -p`
+```fs.file-max = 100000```
+
+```
+sysctl -p
+```
 
 make sure your time is network synced
-`timedatectl`
-if network sync is not active,  
-`timedatectl set-ntp on`
+```
+timedatectl
+```
+> if network sync is not active, `timedatectl set-ntp on`
 
 Low latency won't do harm
-`echo 1 > /proc/sys/net/ipv4/tcp_low_latency`
+```
+echo 1 > /proc/sys/net/ipv4/tcp_low_latency
+```
 
-If your install complains about locales:
+> If your install complains about locales only:
 ```
 export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
