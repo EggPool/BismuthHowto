@@ -35,11 +35,25 @@ sudo apt install screen htop wget sqlite3
 It's advised to use the releases rather than current git code.  
 Current github code may contain untested features and code. 
 
+Head over to the official Bismuth Github repo, releases: https://github.com/hclivess/Bismuth/releases  
+Unless you're wanting a specific version, Pick the latest one. As for now, this is 4.2.2.7.  
+Copy the link of the "Source Code (tar.gz)" file. Mine is https://github.com/hclivess/Bismuth/archive/4.2.2.7.tar.gz
+
+Back to your Ubuntu box, fetch the file where you want it installed, like your home dir, and extract it:
+```
+cd
+wget https://github.com/hclivess/Bismuth/archive/4.2.2.7.tar.gz
+tar -zxvf 4.2.2.7.tar.gz
+```
+It extracts itself under Bismuth-4.2.2.7
+
 ## Node only
 
 For a node only install, install the needed python modules:
 
 ```
+pip3 install simple-crypt --no-deps
+pip3 install PySocks pycryptodome
 ```
 
 ## Node and wallet
