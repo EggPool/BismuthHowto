@@ -71,6 +71,19 @@ Let your node sync. It will download the bootstrap ledger from the website, then
 The wallet does connect to a node.  
 So, in order to run your wallet you also need a running node.
 
+Here are the python modules for the node again, from previous paragraph
+```
+pip3 install simple-crypt --no-deps
+pip3 install PySocks pycryptodome
+```
+
+And here are the extra modules currently needed for the wallet:
+```
+sudo apt install python3-tk
+pip3 install pillow pyqrcode
+```
+
+> I'm aware of `requirementS.txt`, but as it's not always up to date, I prefer to list the individual commands instead.  I will edit once the files on github will be fully updated.
 
 ## OS config
 
@@ -95,6 +108,7 @@ make sure your time is network synced
 ```
 timedatectl
 ```
+Should say "Network time on: yes"  
 > if network sync is not active, `timedatectl set-ntp on`
 
 Low latency won't do harm
