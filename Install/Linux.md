@@ -81,7 +81,7 @@ sudo apt install python3-tk
 pip3 install pillow pyqrcode
 ```
 
-> I'm aware of `requirementS.txt`, but as it's not always up to date, I prefer to list the individual commands instead.  I will edit once the files on github will be fully updated.
+> I'm aware of `requirements.txt`, but as it's not always up to date, I prefer to list the individual commands instead.  I will edit once the files on github will be fully updated.
 
 ## OS config
 
