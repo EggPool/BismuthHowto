@@ -30,13 +30,13 @@ Other goodies may be of use :
 sudo apt install screen htop wget sqlite3
 ```
 
-## Fetch the source files
+## Fetch the source files
 
 It's advised to use the releases rather than current git code.  
 Current github code may contain untested features and code. 
 
 Head over to the official Bismuth Github repo, releases: https://github.com/hclivess/Bismuth/releases  
-Unless you're wanting a specific version, Pick the latest one. As for now, this is 4.2.2.7.  
+Unless you need a specific version, pick the latest one. As for now, this is 4.2.2.7.  
 Copy the link of the "Source Code (tar.gz)" file. Mine is https://github.com/hclivess/Bismuth/archive/4.2.2.7.tar.gz
 
 Back to your Ubuntu box, fetch the file where you want it installed, like your home dir, and extract it:
@@ -56,7 +56,17 @@ pip3 install simple-crypt --no-deps
 pip3 install PySocks pycryptodome
 ```
 
-## Node and wallet
+You may want to edit your config, or just run the node with defaults, and let it sync. Here, I first run a screen, then run the node inside the screen  
+```
+screen -s NODE
+Python3 node.py
+```
+Then no matter what happens to the ssh connection, I can find my running node when I need to with a `screen -x NODE`.  
+> `ctrl-a d` is used to (d)etach from a running screen.
+
+Let your node sync. It will download the bootstrap ledger from the website, then go crazy fetching backlog of blocks. That's ok, give him some time.
+
+## Node and wallet
 
 The wallet does connect to a node.  
 So, in order to run your wallet you also need a running node.
