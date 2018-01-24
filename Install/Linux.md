@@ -4,8 +4,6 @@ This guide is made for Ubuntu. Little should change for other distros.
 The box I used was an Ubuntu 16.04
 
 
-*WIP*
-
 ## Pre-requisites
 
 Python3.5 or later is needed, as well as matching pip
@@ -59,7 +57,7 @@ pip3 install PySocks pycryptodome
 You may want to edit your config, or just run the node with defaults, and let it sync. Here, I first run a screen, then run the node inside the screen  
 ```
 screen -s NODE
-Python3 node.py
+python3 node.py
 ```
 Then no matter what happens to the ssh connection, I can find my running node when I need to with a `screen -x NODE`.  
 > `ctrl-a d` is used to (d)etach from a running screen.
@@ -87,6 +85,7 @@ pip3 install pillow pyqrcode
 
 ## OS config
 
+### limits
 On the node box, be sure to have enough files limits (replace root by the user the node will run under)
 ...
 nano /etc/security/limits.conf
@@ -98,11 +97,15 @@ root hard nofile 65535
 nano /etc/sysctl.conf
 ```
 Append:  
-```fs.file-max = 100000```
-
+```
+fs.file-max = 100000
+```
+then apply the settings
 ```
 sysctl -p
 ```
+
+### Time
 
 make sure your time is network synced
 ```
@@ -111,11 +114,13 @@ timedatectl
 Should say "Network time on: yes"  
 > if network sync is not active, `timedatectl set-ntp on`
 
+### TCP Settings
 Low latency won't do harm
 ```
 echo 1 > /proc/sys/net/ipv4/tcp_low_latency
 ```
 
+### Locales
 > If your install complains about locales only:
 ```
 export LC_ALL="en_US.UTF-8"
