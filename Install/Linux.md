@@ -12,9 +12,11 @@ Python3.5 or later is needed, as well as matching pip
  
 > In order to check your python version , use `python3 --version`
 
-Update your system first, 
-```apt update
-apt upgrade```
+Update your system first:  
+```
+apt update
+apt upgrade
+```
 
 Install pip if needed: `sudo apt install python3-pip`
 
