@@ -1,7 +1,7 @@
 # A few community Videos
 
 
-## How to mine Bismuth on GPU
+## How to mine Bismuth on GPU
 
 https://www.youtube.com/watch?v=iLzSRoSX6Xw
 
