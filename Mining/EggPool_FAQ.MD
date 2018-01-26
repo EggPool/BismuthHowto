@@ -30,8 +30,10 @@ With the blockchain technology, there may be rollbacks, orphans blocks.
 Hence, a block we found can disappear after a while. That's not frequent, but may happen.  
 So, we have to be sure what we gained is solid before sharing.  
 
-So, immature are the shares from previous round, that we did not add to your balance yet.
-They will be added at the end of the round.
+We don't want to give false hope either and display an immature balance then reduce it if a block is rolled back.
+
+So, immature are the shares from pre-previous round, that we did not add to your balance yet.
+They will be added to the unpaid balance at the end of the current round.
 
  ## I just found a share but it's not on my dashboard?
 
