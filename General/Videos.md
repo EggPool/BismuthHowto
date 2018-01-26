@@ -10,3 +10,6 @@ https://www.youtube.com/watch?v=iLzSRoSX6Xw
 
 https://d.tube/#!/v/bitsignal/zyn41vu1
 
+## How to use the Bismuth Wallet
+
+https://www.youtube.com/watch?v=A3moeQ7PwLM
