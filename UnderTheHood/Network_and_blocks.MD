@@ -12,7 +12,7 @@ You can read more in this academic paper: http://www.mic-journal.no/ABS/MIC-2017
 In a snap : block time over a period of time too low, diff raises.  
 block time too high? diff goes down.
 
-## How to check current diff?
+## How to check current diff?
 
 - your wallet show it
 - your pool shows it, "current round info" https://eggpool.net/
