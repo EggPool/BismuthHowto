@@ -9,7 +9,7 @@ It takes time.
 And support to more than a million users takes much time. Don't underestimate Cryptopia's will to run it's business.  
 This is Crypto, an insane world.
 
-## Cryptopia and BIS
+## Cryptopia and BIS
 Cryptopia "invested" in BIS. They spent time (hence money) to integrate Bismuth, when it is not yet using the bitcoin standard json-rpc that other clone coins may come with.  
 That's a leap of faith, and we are very thankful for that.  
 But that also means that some things may not be exactly like you are used to, so listen carefully.
@@ -52,7 +52,7 @@ Then it will show up, but need 100 confirmations before being avail able.
 (WIP)
 
 
-## When things go wrong
+## When things go wrong
 
 Shit happens. You can make a mistake, there can be a glitch somewhere.  
 Be patient.  
