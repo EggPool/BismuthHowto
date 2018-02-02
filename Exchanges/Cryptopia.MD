@@ -65,3 +65,8 @@ Insulting someone won't help. Telling people that's is their fault and what they
   Ticking or not the "message" checkbox works either way.  
 - If opening a ticket, include all relevant info for the start (see above)
   
+  
+# Who to contact?
+
+- If the issue is with your wallet.py [https://github.com/hclivess/Bismuth/releases](official wallet release), then use Bismuth (Slack) or (Discord)
+- If the issue seems to be with Cryptopia, you can try the (Cryptopia's discord), or if you are sure of the issue and have all info at hand, open a support ticket.
