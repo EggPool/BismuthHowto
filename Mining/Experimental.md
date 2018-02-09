@@ -16,6 +16,16 @@ Some params may appear both in .yaml file and on the command line. In that case,
 
 Lines beginning with a `#` are comment, and so are ignored.
 
+Params are like  `param_name: param_value`
+
+Lists are  
+```
+list_name:
+-  item1
+-  item2
+```
+
+
 ## The bismuth.bat / Bismuth.sh
 
 This is the script to edit and run.   
