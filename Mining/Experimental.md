@@ -54,3 +54,10 @@ This should be 60 for nvidias. Can be 0 *for AMD Only*.
 Use 0 for nvidias and you will use 100% cpu and crash.  
 Double check this one!
 
+WIP
+
+## Windows, missing DLL
+
+You may need visual C++ 2010 redistributable, here is latest version from Microsoft:  
+https://www.microsoft.com/en-us/download/details.aspx?id=26999&tduid=(509a61115e4c36694181baac754e734b)(266696)(1544997)(06-3589464-11-0000000)()
+
