@@ -1,5 +1,5 @@
 # BismuthHowto
-Various how tos and base info for Bismuth cryptocurrency. Wallet, mining, nodes and such.
+Various how tos and base info for [Bismuth Crypto Currency](https://github.com/hclivess/Bismuth)  . Wallet, mining, nodes and such.
 
 Initiated and curated by EggPool Https://EggPool.Net  
 This is a WIP, your feedback is most welcome.  
