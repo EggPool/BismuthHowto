@@ -158,5 +158,9 @@ https://www.microsoft.com/en-us/download/details.aspx?id=26999&tduid=(509a61115e
 ## Changelog 
 
 # 2.3.1.
-
+- solved memleaks
+- solved random crash
+- eased cpu usage on nvidias with recommended damping 80
+- json status
+- configurable Log directory
 
