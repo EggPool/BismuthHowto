@@ -9,6 +9,11 @@ It takes time.
 And support to more than a million users takes much time. Don't underestimate Cryptopia's will to run it's business.  
 This is Crypto, an insane world.
 
+## Timing
+Please be aware that your deposit and withdraw need few hours to be processed.  
+Cryptopia confirm them 4~6 times per a day. So, it's of no use to open a ticket after a few minutes. Just wait.  
+Also, close your open ticket if they are no more needed.
+
 ## Cryptopia and BIS
 Cryptopia "invested" in BIS. They spent time (hence money) to integrate Bismuth, when it is not yet using the bitcoin standard json-rpc that other clone coins may come with.  
 That's a leap of faith, and we are very thankful for that.  
@@ -42,9 +47,9 @@ If you have to open a Cryptopia ticket, this is what you have to include with yo
 
 Then wait a moment. This won't show up in the minute.  
 The cryptopia Dashboard may take a while to update and show your deposit.  
-Then it will show up, but need 100 confirmations before being avail able.  
+Then it will show up, but need 100 confirmations before being available.  
 
-> So, *NO HURRY*. Give it one hour for appearing on the dashboard, and a little more time to be available.
+> So, *NO HURRY*. Give it one hour to a few hour for appearing on the dashboard, and a little more time to be available.
 
 
 # Withdrawals from Cryptopia
