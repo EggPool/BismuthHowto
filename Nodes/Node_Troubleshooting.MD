@@ -7,9 +7,9 @@ Checklist :
 - 5658 port is open, no firewall, I can check it's available from the internet. for instance : https://www.yougetsignal.com/tools/open-ports/
 
 Config.txt file:
-- config.txt, or config_custom.txt if you use it: I have at least 50 threads `thread_limit=75` is fine.
-- I have nothing in banlist
-- I have bp1.eggpool.net in whitelist (may help getting sync)
+- config.txt, or config_custom.txt if you use it: I have at least 50 threads `thread_limit=75` is fine.  
+- I have nothing in banlist  
+- I have bp1.eggpool.net in whitelist (may help getting sync)  
 
 - close and relaunch
 
@@ -20,7 +20,7 @@ If block height does not move, and you are behind (check http://bismuth.online f
 https://github.com/hclivess/Bismuth/raw/4.2.1.9/peers.txt
 - relaunch node
 
-## Innocuous log messages
+## Innocuous log messages
 
 The following messages are part of normal operation and *NOT* harmuful:  
 
