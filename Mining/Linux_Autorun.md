@@ -22,7 +22,7 @@ The script, `~/start_bismuth.sh`:
 # Give it some time to be ready
 sleep(5)
 
-screen -d -S miner -m bash -c "cd cd /where/your/miner/files/are;./bismuth.sh"
+screen -d -S miner -m bash -c "cd /where/your/miner/files/are;./bismuth.sh"
 ```
 
 now, `chmod +x ./start_bismuth.sh` and test it.  
