@@ -16,7 +16,8 @@ The script, `~/start_bismuth.sh`:
 ```
 #/bin/sh
 
-# Here you can auto setup gpu config commands, see (Linux overclocking)[https://github.com/EggPool/BismuthHowto/blob/master/Mining/Linux_NVidia_OC_Underpower.MD]
+# Here you can auto setup gpu config commands, 
+# see https://github.com/EggPool/BismuthHowto/blob/master/Mining/Linux_NVidia_OC_Underpower.MD
 
 # Give it some time to be ready
 sleep(5)
