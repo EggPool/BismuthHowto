@@ -7,7 +7,7 @@ It's available for Windows And linux, ask @EggdraSyl via PM if you want to give 
 
 This doc only concerns this experimental Miner "EggMinerOpenCl".
 
-Latest is [Version231](https://github.com/EggPool/EggMinerGpu/releases/tag/231).
+Latest is [Version234](https://github.com/EggPool/EggMinerGpu/releases/tag/2.3.4).
 
 ## Config file
 
