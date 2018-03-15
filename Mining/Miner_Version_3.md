@@ -7,12 +7,12 @@ Not released yet, in alpha test.
 # Changelog
 
 * 3.001Lin and Win
-New gen, Testing Version
-More Hashrate, specially on NVidias (+10 to +16% on nvidias, +1% on AMD)
-No more need of -i 50 for nvidias.
-Optimization and benchmarking procedure
-Less CPU Usage
-More Eggs
+* New gen, Testing Version
+* More Hashrate, specially on NVidias (+10 to +16% on nvidias, +1% on AMD)
+* No more need of -i 50 for nvidias.
+* Optimization and benchmarking procedure
+* Less CPU Usage
+* More Eggs
 
 # Optimization
 
