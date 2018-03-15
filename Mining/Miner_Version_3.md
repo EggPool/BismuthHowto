@@ -9,7 +9,7 @@ Not released yet, in alpha test.
 * 3.001Lin and Win
 * New gen, Testing Version
 * More Hashrate, specially on NVidias (+10 to +16% on nvidias, +1% on AMD)
-* No more need of -i 50 for nvidias.
+* *No more need of -i 50 for nvidias.*
 * Optimization and benchmarking procedure
 * Less CPU Usage
 * More Eggs
@@ -64,8 +64,15 @@ run `./EggMinerGpuLin3 -h` to see available switches.
   720 or 1440 is safe.
   * -i INTENSITY, --intensity INTENSITY  
   GPU intensity, from 0 to 100 (you can list for each gpu)
+  * -f damping_factor. 0 to 90  
+  Nvidia damping factor. Can be 0 for AMD only. Default 80 if there is at least a Nvidia GPU
   * -0, --gpu0           
   Go Easier on GPU#0 (display - not needed)
+
+# What to use for damping factor?
+- AMD Only: use  or 50
+- Nvidia: begin with default of 80. If your cpu is really overloaded, raise to 85 or 90.  
+  If your CPU still has free cycles, you can try to lower a buit (70 or 60 min) and see if it gives you more hash (but it will eat more cpu).
 
 # What about more hash for AMD?
 
