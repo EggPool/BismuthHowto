@@ -87,6 +87,6 @@ Some "INVALID COMMAND QUEUE" crashes, investigating.
 
 # Some features from experimental branch are missing
 
- Missing the colored lines of 2.3.4
- no json status
- no alternate directory
+* Missing the colored lines of 2.3.4
+* no json status
+* no alternate directory
