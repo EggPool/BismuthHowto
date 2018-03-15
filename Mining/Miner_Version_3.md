@@ -8,7 +8,7 @@ Not released yet, in alpha test.
 
 * 3.001Lin and Win
 New gen, Testing Version
-More Hashrate, specially on NVidias
+More Hashrate, specially on NVidias (+10 to +16% on nvidias, +1% on AMD)
 No more need of -i 50 for nvidias.
 Optimization and benchmarking procedure
 Less CPU Usage
@@ -18,7 +18,7 @@ More Eggs
 
 You can stop the miner, then run the optimization procedure.
 Windows: "optimize.bat".  
-Linux: add --action=optimize
+Linux: add `--action=optimize`
 
 It'll take a while but will find the best params for your rig, then save them for the miner.  
 (file optis.json)
@@ -37,6 +37,14 @@ This optimization not only finds the best raw hashrate, but compensate for gpu r
 The longuer the gpu runs, the more hash you usually get.  
 But the more you risk to give stalled shares.  
 This measure takes that into account to optimize a meaningfull setting, not just the best displayed hash rate, but the one that will give you the more shares.
+
+# Benchmarking
+
+add `--action=benchmark`  
+If you run it with -i 100,0,0,0 for instance, it will only benchmark the first gpu.  
+Reports hashrate and mhu for the current setting.  
+Usefull if you xant to try different clocks settings from a script to find the best one.
+
 
 # Optionnal Command Line params
 run `./EggMinerGpuLin3 -h` to see available switches.
@@ -59,7 +67,10 @@ run `./EggMinerGpuLin3 -h` to see available switches.
   * -0, --gpu0           
   Go Easier on GPU#0 (display - not needed)
 
+# What about more hash for AMD?
 
+I focused on nvidia first. I thought it would benefit to AMD too, but it's the opposite.  
+what makes nvidia faster slows AMD down. So I'll do it in 2 steps. There is still room for improvement.
 
 # Known bugs
 
@@ -71,3 +82,11 @@ readme.txt not up to date in linux archive
 bug in bismuth.bat, it should read `:run` and not `run:`
 
 possible bug in bismuth.sh
+
+Some "INVALID COMMAND QUEUE" crashes, investigating.
+
+# Some features from experimental branch are missing
+
+ Missing the colored lines of 2.3.4
+ no json status
+ no alternate directory
