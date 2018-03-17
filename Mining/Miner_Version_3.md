@@ -34,7 +34,7 @@ If you run it with -i 100,0,0,0 for instance, it will only optimize the first gp
 (can be usefull if you have 8 identical gpus, its faster, and then you edit optis.json to duplicate found settings)
 
 This optimization not only finds the best raw hashrate, but compensate for gpu run time. It measures a "mhu" (Useful MH/s).  
-The longuer the gpu runs, the more hash you usually get.  
+The longer the gpu runs, the more hash you usually get.  
 But the more you risk to give stalled shares.  
 This measure takes that into account to optimize a meaningfull setting, not just the best displayed hash rate, but the one that will give you the more shares.
 
@@ -104,9 +104,9 @@ Some "INVALID COMMAND QUEUE" crashes, investigating.
 Ubuntu 16.04, nvidia 387.34
 
 ## Windows OK
-Win 10 Pro x64 build 16299, NVidia driver 390.77
-Win 8.1 Version 6.3.9600 - 391.01 drivers - 6xgtx 1070 (about one crash per hour)
-Win 10 16299, Nvidia 391.01, GPU +150 on 1060s and +120 on 1080tis, PLs at 90
+Win 10 Pro x64 build 16299, NVidia driver 390.77  
+Win 8.1 Version 6.3.9600 - 391.01 drivers - 6xgtx 1070 (about one crash per hour)  
+Win 10 16299, Nvidia 391.01, GPU +150 on 1060s and +120 on 1080tis, PLs at 90  
 
 ## Windows Ko
 Win 10 Pro build 16299, NVidia driver 390.65 - Gtx1060 oc +150/0 - crash twice per hour
