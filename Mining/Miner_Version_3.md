@@ -105,3 +105,6 @@ Ubuntu 16.04, nvidia 387.34
 
 ## Windows OK
 Win 10 Pro x64 build 16299, NVidia driver 390.77
+
+## Windows Ko
+Win 10 Pro build 16299, NVidia driver 390.65 - Gtx1060 oc +150/0
