@@ -97,3 +97,11 @@ Some "INVALID COMMAND QUEUE" crashes, investigating.
 * Missing the colored lines of 2.3.4
 * no json status
 * no alternate directory
+
+# Stability reports
+
+## Linux OK
+Ubuntu 16.04, nvidia 387.34
+
+## Windows OK
+Win 10 Pro x64 build 16299, NVidia driver 390.77
