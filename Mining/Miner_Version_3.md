@@ -92,6 +92,11 @@ possible bug in bismuth.sh
 
 Some "INVALID COMMAND QUEUE" crashes, investigating.
 
+# Windows Crash on nvidia
+
+Try to raise the damping factor from 80 to 90  
+just add `-f 90` to the command line in the .bat
+
 # Some features from experimental branch are missing
 
 * Missing the colored lines of 2.3.4
