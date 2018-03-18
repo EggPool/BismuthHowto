@@ -107,14 +107,15 @@ just add `-f 90` to the command line in the .bat
 
 ## Linux OK
 Ubuntu 16.04, nvidia 387.34 (stable for 2 days +)  
-Ubuntu, nvidia 390.25 (stable for 2 days)
+Ubuntu, nvidia 390.25 (stable for 2 days)  
+Ubuntu 16.04.03 lts. Driver 387.34 (Works flawlessly)
 
 ## Windows OK
 Win 10 Pro x64 build 16299, NVidia driver 390.77  
 Win 8.1 Version 6.3.9600 - 391.01 drivers - 6xgtx 1070 (about one crash per hour)  
 Win 10 16299, Nvidia 391.01, GPU +150 on 1060s and +120 on 1080tis, PLs at 90  
-Win 10 Pro x64 build 16299.248, NVidia driver 388.13 (23.21.13.8813) - 6xmsi 1060 gaming 6 gb, OC +100/+0 (stable for 4 days)
-Win 10 x64 1709 Build 16299.309 - AMD Driver Radeon 18.3.2 - 8 AMD RX580 gpus all OC ~+200 - Up 4 days no issues
+Win 10 Pro x64 build 16299.248, NVidia driver 388.13 (23.21.13.8813) - 6xmsi 1060 gaming 6 gb, OC +100/+0 (stable for 4 days)  
+Win 10 x64 1709 Build 16299.309 - AMD Driver Radeon 18.3.2 - 8 AMD RX580 gpus all OC ~+200 - Up 4 days no issues  
 
 ## Windows Ko
 Win 10 Pro build 16299, NVidia driver 390.65 - Gtx1060 oc +150/0 - crash twice per hour  
