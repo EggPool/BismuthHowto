@@ -101,7 +101,7 @@ Some "INVALID COMMAND QUEUE" crashes, investigating.
 # Stability reports
 
 ## Linux OK
-Ubuntu 16.04, nvidia 387.34 (stable for 2 days +)
+Ubuntu 16.04, nvidia 387.34 (stable for 2 days +)  
 Ubuntu, nvidia 390.25 (stable for 2 days)
 
 ## Windows OK
