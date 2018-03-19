@@ -121,3 +121,8 @@ Win 10 16299, Nvidia 391.01, 1070 and 970, no OC, stable for 10 hours and still 
 ## Windows Ko
 Win 10 Pro build 16299, NVidia driver 390.65 - Gtx1060 oc +150/0 - crash twice per hour  
 WIN 10 PRO build 16299.309 nvidia driver 390.65 - no oc - crashes every 20 min
+
+# HR Reports
+
+You can check and fill in your details here, will help for stats and giving hints for best OC params (thanks freaq!).  
+https://docs.google.com/spreadsheets/d/1--SNuCPBRblrlhSbU6QNoE-Hwkw1GWvnggvV633P92g/edit?usp=sharing
