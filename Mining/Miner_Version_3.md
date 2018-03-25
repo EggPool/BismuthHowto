@@ -1,14 +1,14 @@
 # EggminerGpu3
 
-Current test version is v3.001
+Current version is v3.010
 
-Not released yet, in alpha test.
+Link to [Miner V3 Release](https://github.com/EggPool/EggMinerGpu/releases/tag/3.0.1.0)
 
 # Changelog
 
-* 3.001Lin and Win
-* New gen, Testing Version
-* More Hashrate, specially on NVidias (+10 to +16% on nvidias, +1% on AMD)
+* 3.010Lin and Win
+* New gen
+* More Hashrate, specially on NVidias (up to +20% on nvidias)
 * *No more need of -i 50 for nvidias.*
 * Optimization and benchmarking procedure
 * Less CPU Usage
@@ -18,7 +18,7 @@ Not released yet, in alpha test.
 
 You can stop the miner, then run the optimization procedure.
 Windows: "optimize.bat".  
-Linux: add `--action=optimize`
+Linux: add `--action=optimize` or run ./optimize.sh
 
 It'll take a while but will find the best params for your rig, then save them for the miner.  
 (file optis.json)
@@ -68,11 +68,13 @@ run `./EggMinerGpuLin3 -h` to see available switches.
   Nvidia damping factor. Can be 0 for AMD only. Default 80 if there is at least a Nvidia GPU
   * -0, --gpu0           
   Go Easier on GPU#0 (display - not needed)
+  * -l --lock  
+  Add some locks to prevent crashes (it's on by default)
 
 # What to use for damping factor?
 - AMD Only: use  or 50
 - Nvidia: begin with default of 80. If your cpu is really overloaded, raise to 85 or 90.  
-  If your CPU still has free cycles, you can try to lower a buit (70 or 60 min) and see if it gives you more hash (but it will eat more cpu).
+  If your CPU still has free cycles, you can try to lower a bit (70 or 60 min) and see if it gives you more hash (but it will eat more cpu).
 
 # What about more hash for AMD?
 
@@ -84,18 +86,23 @@ what makes nvidia faster slows AMD down. So I'll do it in 2 steps. There is stil
 -i 100 doesn’t work, still sets i to 50
 I had to specify the comma separated list 100,100,100 etc to get the GPUs to 100 intensit
 
-readme.txt not up to date in linux archive
-
-bug in bismuth.bat, it should read `:run` and not `run:`
-
-possible bug in bismuth.sh
-
-Some "INVALID COMMAND QUEUE" crashes, investigating.
 
 # Windows Crash on nvidia
 
 Try to raise the damping factor from 80 to 90  
 just add `-f 90` to the command line in the .bat
+
+Lower overclock or powerlimit (the more you lower power, the more you can OC and keep stable)
+
+use -l (lowercase L)
+
+Don't do other things while you mine
+
+Optimize Windows for minning: https://github.com/DeadManWalkingTO/Windows10MiningTweaksDmW
+
+Once optimized, edit optis.json and try to raise the 'nmh' param.  
+Some report great luck with 64 or 96 instead of 32. Keep it a multiple of 16.  
+Only do that if your rig crashes.
 
 # Some features from experimental branch are missing
 
@@ -103,7 +110,8 @@ just add `-f 90` to the command line in the .bat
 * no json status
 * no alternate directory
 
-# Stability reports
+# Stability reports from version 3.001
+(it's better now!)
 
 ## Linux OK
 Ubuntu 16.04, nvidia 387.34 (stable for 2 days +)  
