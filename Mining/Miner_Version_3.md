@@ -12,6 +12,7 @@ Link to [Miner V3 Release](https://github.com/EggPool/EggMinerGpu/releases/tag/3
 * *No more need of -i 50 for nvidias.*
 * Optimization and benchmarking procedure
 * Less CPU Usage
+* New metric, FTS
 * More Eggs
 
 # Optimization
@@ -75,7 +76,15 @@ run `./EggMinerGpuLin3 -h` to see available switches.
 - AMD Only: use  or 50
 - Nvidia: begin with default of 80. If your cpu is really overloaded, raise to 85 or 90.  
   If your CPU still has free cycles, you can try to lower a bit (70 or 60 min) and see if it gives you more hash (but it will eat more cpu).
+  
+# What is the FTS?
 
+It's a custom metrics, that gives an indication of how your cpu is able to keep up with the gpus.  
+0 is good and should be the target. Greater than 1 is definitely an issue and means high risks of crashing.  
+See the 'windows crash' section for tips on how to reduce FTS and crash frequency.
+
+If you have FTS but no crash, there's nothing to solve. FTS are not a problem by themselve, just an indirect indicator.
+  
 # What about more hash for AMD?
 
 I focused on nvidia first. I thought it would benefit to AMD too, but it's the opposite.  
