@@ -24,10 +24,10 @@ Linux: add `--action=optimize` or run ./optimize.sh
 It'll take a while but will find the best params for your rig, then save them for the miner.  
 (file optis.json)
 
-If you physically change your gpus, you'll need to delete optis.json or reun the optimization.
+If you physically change your gpus, you'll need to delete optis.json or re-run the optimization.
 
 ## What does the optimization do?
-it makes a reference measure, then scans all potentially reasonable settings to find the best one.
+It makes a reference measure, then scans all potentially reasonable settings to find the best one.
 Does not play with clocks, only algo params.
 It stops when it tried all, and save its finding in "optis.json" file.
 
