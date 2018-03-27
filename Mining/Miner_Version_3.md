@@ -143,3 +143,18 @@ WIN 10 PRO build 16299.309 nvidia driver 390.65 - no oc - crashes every 20 min
 
 You can check and fill in your details here, will help for stats and giving hints for best OC params (thanks freaq!).  
 https://docs.google.com/spreadsheets/d/1--SNuCPBRblrlhSbU6QNoE-Hwkw1GWvnggvV633P92g/edit?usp=sharing
+
+# Some FAQs
+
+## If I choose any intensity (except for -i 0, which does completely disable GPU0), the intensity stays at full and the hash rate doesn't change
+
+Indeed: with the current v3 Miner, -i has no more effect.  
+It will be re-added in the next version, available soon.
+
+In the mean time, you could run a v2 miner on the first gpu with -i 50,0  
+https://github.com/EggPool/EggMinerGpu/releases/tag/2.3.4  
+https://github.com/EggPool/BismuthHowto/blob/master/Mining/Experimental.md  
+and the v3 miner on the second gpu, with 0,100
+
+Sorry for the trouble!
+
