@@ -1,12 +1,15 @@
 # EggminerGpu3
 
-Current version is v3.010
+Current version is v3.012
 
-Link to [Miner V3 Release](https://github.com/EggPool/EggMinerGpu/releases/tag/3.0.1.0)
+Link to [Miner V3 Release](https://github.com/EggPool/EggMinerGpu/releases/tag/3.0.1.2)
+
+See README.txt from the archive, changes in -i management: don't use -i 50 for nvidias anymore!
+
 
 # Changelog
 
-* 3.010Lin and Win
+* 3.012Lin and Win
 * New gen
 * More Hashrate, specially on NVidias (up to +20% on nvidias)
 * *No more need of -i 50 for nvidias.*
@@ -14,6 +17,7 @@ Link to [Miner V3 Release](https://github.com/EggPool/EggMinerGpu/releases/tag/3
 * Less CPU Usage
 * New metric, FTS
 * More Eggs
+* See README.txt from the archive, changes in -i management: don't use -i 50 for nvidias anymore!
 
 # Optimization
 
