@@ -17,3 +17,10 @@
 - Run node.exe and let is sync
 - See Toubleshooting node sync issues if needed (TODO)
 - Run wallet
+
+## Troubleshooting
+
+Error loading Python dll?
+
+Install this:  
+https://www.microsoft.com/en-us/download/details.aspx?id=52685
