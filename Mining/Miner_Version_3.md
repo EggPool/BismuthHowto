@@ -77,7 +77,7 @@ run `./EggMinerGpuLin3 -h` to see available switches.
   Add some locks to prevent crashes (it's on by default)
 
 # What to use for damping factor?
-- AMD Only: use  or 50
+- AMD Only: use 0 or 50, it is ignored.
 - Nvidia: begin with default of 80. If your cpu is really overloaded, raise to 85 or 90.  
   If your CPU still has free cycles, you can try to lower a bit (70 or 60 min) and see if it gives you more hash (but it will eat more cpu).
   
