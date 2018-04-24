@@ -26,6 +26,6 @@ Official Wallet usage and FAQ
 Further info for the techies, academics and devs out there.
 
 
-## Licence
-This content is published under the MIT licence.  
+## License
+This content is published under the MIT license.  
 In a Nutshell: You can do anything you want with it, as long as you credit the source (This repo, EggPool)
