@@ -138,7 +138,7 @@ TODO - dedicated page
 
 ## Common errors
 
-(tahnks to @cryptonoob42)
+(thanks to @cryptonoob42)
 
 ### Exception in node:  
 `peer_ip = s.getpeername()[0]`  
