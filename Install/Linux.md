@@ -135,3 +135,19 @@ TODO
 ## Config file
 
 TODO - dedicated page
+
+## Common errors
+
+(tahnks to @cryptonoob42)
+
+### Exception in node:  
+`peer_ip = s.getpeername()[0]`  
+`TypeError: 'NoneType' object is not subscriptable`
+
+remove python3-socks via apt, then upgrade pysocks via pip to version 1.6.8.
+
+### ImportError: No module named 'PIL.ImageTk'
+
+One way of fixing this (on Ubuntu) is to run  
+`sudo apt install python3-pil.imagetk`  
+or just update pillow from pip to version 5.1.0 
