@@ -26,7 +26,7 @@ The addresses with the Port 8150 are newly developed Wallet-Servers, they should
 When the address is not reachable, your wallet tries the next in the list.
 
 However, sometimes a node or a wallet-server accepts the connection but has some problems (a normal node with high load for example or a wallet-server, where the attached node has problems),
-your wallet is starting but stopping and showing a white window or it is starting but showing zero information (no balance, no actual block, just the info where you are connected to.
+your wallet is starting but stopping and showing a white window or it is starting but showing zero information (no balance, no actual block, just the info where you are connected to).
 Best way is to restart the wallet and if it happens again and you are connected to the same node, delete it from the config-line "light_ip".
 
 Actual Wallet Servers that are running (as mentioned still testing how many wallets they can handle and so on):
