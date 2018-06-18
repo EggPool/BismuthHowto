@@ -51,12 +51,12 @@ It extracts itself under Bismuth-4.2.5.1
 The wallet does connect to a node.  
 In order to run your wallet you used to also need a running node.  
 Nowadays, it's not needed anymore. The light wallet can connect to an online node.  
-It will try to connect to your local node first, then try online servers. That is, you don't need anymore a node nor a complete chain sync to run and use your wallet.
+It will try to connect to your local node first, then try online servers. That is, you don't need a node anymore nor a complete chain sync to run and use your wallet.
 
 Here are the modules currently needed for the wallet:
 
 ```
-pip3 install -r requirementS.txt
+pip install -r requirementS.txt
 ```
 
 ## Run the wallet
