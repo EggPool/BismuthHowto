@@ -7,7 +7,7 @@ The box I used was an Ubuntu 16.04
 ## Pre-requisites
 
 Python3.5 or later is needed, as well as matching pip.  
-For some recent node versions or branches, Ptrhon 3.6 may be needed.
+For some recent node versions or branches, Python 3.6 may be needed.
 
 If you need to install a version above what your system ships with, it's recommended to use pyenv.  
 https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get#865569  
