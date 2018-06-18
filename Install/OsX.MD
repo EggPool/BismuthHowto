@@ -56,7 +56,7 @@ It will try to connect to your local node first, then try online servers. That i
 Here are the modules currently needed for the wallet:
 
 ```
-pip install -r requirementS.txt
+pip install -r requirements.txt
 ```
 
 ## Run the wallet
