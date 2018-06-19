@@ -9,7 +9,7 @@ This guide only covers the wallet for now.
 Python3.5 or later is needed, as well as matching pip.  
 For some recent node versions or branches, Python 3.6 may be needed.
 
-You need basic knowledge of you mac, that is opening the terminal and installing an app.
+You need basic knowledge of your mac, that is opening the terminal and installing an app.
 
 Here is a guide for installing python3.6.  
 I'd advise to prefer the homebrew method.  
