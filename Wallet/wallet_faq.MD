@@ -11,8 +11,8 @@ allowed can be "any" or a list of ips.
 
 (June 2018)
 
-In your bismuth-folder is a file called config.txt. It gets adjusted on new releases, but sometimes when we develop new things, some things needed to be adjusted.
-for the wallet, the main config-line is "light_ip". This is the line, where all ip-addresses are listed, your wallet tries to connect to.
+In your bismuth-folder is a file called config.txt. It happens, that it changes on new releases, but sometimes when we develop new code, some things need to be adjusted.
+For the wallet, the main config-line is "light_ip". This is the line, where all ip-addresses are listed, your wallet tries to connect to.
 It looks like this:
 - *light_ip=127.0.0.1,bismuth.online:8150,bismuth.live:8150,bismuth.live,66.70.181.150,heatnodes.org*
 
@@ -32,4 +32,5 @@ Best way is to restart the wallet and if it happens again and you are connected 
 Actual Wallet Servers that are running (as mentioned still testing how many wallets they can handle and so on):
 * wallet.bismuth.online:8150
 * wallet1.bismuth.online:8150
-* 46.101.186.35:8150
+* wallet.bismuthplatform.de:8150
+* bismuth.live:8150
