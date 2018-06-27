@@ -34,3 +34,19 @@ Actual Wallet Servers that are running (as mentioned still testing how many wall
 * wallet1.bismuth.online:8150
 * wallet.bismuthplatform.de:8150
 * bismuth.live:8150
+
+## How can i use bis-URL
+
+The bis-URL was introduced to make it easy to for somebody to send you funds. The URL looks like this:
+- *bis://pay/a269451155ce19a7b99cd7934eebf457fbac4731d1a3c41d620d98be/10.00000000//Xk~I`AZc?Td2e-cAZBT0Y-Av2Z*m}EAZ=xHb75y?/N~ISkia*+^KM*wnC^=69*
+
+After *bis://* the URL consists of 5 parameters:
+* command
+* receipient
+* amount
+* operation
+* openfield
+
+They are divided be a "*/*". So in the example above, the command is *pay*, followed by the address, where the funds should be send to. Next field is the *amount* of bis that is send (in our example: 10 bis). Following part is the *operation* field, which is empty in our example, that is why we see a *//*. The last part is *openfield* or *data*, which contains the message.
+The wallet has some text information how to create or read a bis-URL. However, when you click on *read*, only the values are filled in the corresponding fields, nothing is sent when you did this. You can still enter something (for example message or amount).
+
