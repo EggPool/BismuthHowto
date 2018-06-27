@@ -13,7 +13,8 @@ Your keys are all that is needed to access your wallet.
 They are the important thing to care about.
 
 ## So, Where are my keys?
-Version before 4.2.4.1
+**Version: before 4.2.4.1**
+
 When you run a node for the first time, the node generates a brand new address for you, and a set of private/public key.  
 Those are the 3 files in your bismuth dir:
 - address.txt
@@ -22,17 +23,18 @@ Those are the 3 files in your bismuth dir:
 
 Both .der files you have to take care of. Backup in a secure place, and do not, EVER, give you privkey to anyone.
 
-Since Version 4.2.4.1
-When you run a node for the first time, there are no keys present and the node generates a brand new addres for you, and one file containing the private and the public key in one file:
+**Since Version 4.2.4.1**
+
+When you run a node for the first time, there are no keys present, the node generates a brand new address for you and one file containing the private and the public key:
 - wallet.der
-you only need to backup this file and you are safe. Don't ever give this file to anyone!
+you only need to backup this file and you are safe. **Don't ever give this file to anyone!**
 
 If you upgrade from an older wallet and if you have a pubkey.der and privkey.der, the node automatically converts the keys to the new format:
 - if your upgrade is done, FIRST copy the pubkey.der and privkey.der into your bismuth-folder.
 - Start the node.
 - your wallet.der was generated, backup it.
 
-If you already started the node, before you copied your old keys:
+If you already started the node before you copied your old keys:
 - if you have no funds on the newly generated address, you can delete wallet.der (you can keep it by renaming the file wallet.der (for example wallet_address.der)
 - if you already have funds on this new address, rename the file wallet.der (for example wallet_address.der)
 - copy your old privkey.der and pubkey.der into the bismuth-folder
