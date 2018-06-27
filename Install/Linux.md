@@ -60,7 +60,7 @@ pip3 install -r requirements-node.txt
 
 You may want to edit your config, or just run the node with defaults, and let it sync. Here, I first run a screen, then run the node inside the screen  
 ```
-screen -s NODE
+screen -S NODE
 python3 node.py
 ```
 Then no matter what happens to the ssh connection, I can find my running node when I need to with a `screen -x NODE`.  
@@ -82,7 +82,7 @@ pip3 install -r requirements-node.py
 
 And here are the extra modules currently needed for the wallet:
 ```
-pip3 install -r requirementS.txt
+pip3 install -r requirements.txt
 ```
 
 ## OS config
