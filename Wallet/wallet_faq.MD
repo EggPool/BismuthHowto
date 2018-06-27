@@ -11,8 +11,8 @@ allowed can be "any" or a list of ips.
 
 (June 2018)
 
-In your bismuth-folder is a file called config.txt. It gets adjusted on new releases, but sometimes when we develop new things, some things needed to be adjusted.
-for the wallet, the main config-line is "light_ip". This is the line, where all ip-addresses are listed, your wallet tries to connect to.
+In your bismuth-folder is a file called config.txt. It happens, that it changes on new releases, but sometimes when we develop new code, some things need to be adjusted.
+For the wallet, the main config-line is "light_ip". This is the line, where all ip-addresses are listed, your wallet tries to connect to.
 It looks like this:
 - *light_ip=127.0.0.1,bismuth.online:8150,bismuth.live:8150,bismuth.live,66.70.181.150,heatnodes.org*
 
@@ -32,4 +32,21 @@ Best way is to restart the wallet and if it happens again and you are connected 
 Actual Wallet Servers that are running (as mentioned still testing how many wallets they can handle and so on):
 * wallet.bismuth.online:8150
 * wallet1.bismuth.online:8150
-* 46.101.186.35:8150
+* wallet.bismuthplatform.de:8150
+* bismuth.live:8150
+
+## How can i use bis-URL
+
+The bis-URL was introduced to make it easy to for somebody to send you funds. The URL looks like this:
+- *bis://pay/a269451155ce19a7b99cd7934eebf457fbac4731d1a3c41d620d98be/10.00000000//Xk~I`AZc?Td2e-cAZBT0Y-Av2Z*m}EAZ=xHb75y?/N~ISkia*+^KM*wnC^=69*
+
+After *bis://* the URL consists of 5 parameters:
+* command
+* receipient
+* amount
+* operation
+* openfield
+
+They are divided be a "*/*". So in the example above, the command is *pay*, followed by the address, where the funds should be send to. Next field is the *amount* of bis that is send (in our example: 10 bis). Following part is the *operation* field, which is empty in our example, that is why we see a *//*. The last part is *openfield* or *data*, which contains the message.
+The wallet has some text information how to create or read a bis-URL. However, when you click on *read*, only the values are filled in the corresponding fields, nothing is sent when you did this. You can still enter something (for example message or amount).
+

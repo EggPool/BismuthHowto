@@ -8,7 +8,7 @@ WIP
 
 ## Forums & co
 
-- Slack https://cryptobismuth.herokuapp.com/
+- Slack https://cryptobismuth.herokuapp.com/ - **please use Discord, Slack is only active as archive**
 - Discord https://discord.gg/5Kn3zD4
 
 - Bitcointalk https://bitcointalk.org/index.php?topic=1896497.0
