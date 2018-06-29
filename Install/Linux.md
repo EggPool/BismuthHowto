@@ -77,7 +77,7 @@ It will try to connect to your local node first, then try online servers. That i
 
 Here are the python modules for the node again, from previous paragraph
 ```
-pip3 install -r requirements-node.py
+pip3 install -r requirements-node.txt
 ```
 
 And here are the extra modules currently needed for the wallet:
