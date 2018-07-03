@@ -33,7 +33,11 @@ On the deposit page for your account, You'll see *two things*:
 
 Both are equally important.
 
-wallet *screen*
+Your custom cryptopia message is visible on the BIS deposit page, https://www.cryptopia.co.nz/Deposit/Display?currency=BIS&returnUrl=/Exchange
+![cryptopia message](cryptopia2.png "Cryptopia deposit")
+
+Then from tyour wallet, fill in both address and message:
+![cryptopia message](cryptopia.png "Cryptopia deposit2")
 
 ### Checking your deposit
 

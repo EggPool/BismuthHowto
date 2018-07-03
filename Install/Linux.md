@@ -6,7 +6,12 @@ The box I used was an Ubuntu 16.04
 
 ## Pre-requisites
 
-Python3.5 or later is needed, as well as matching pip
+Python3.5 or later is needed, as well as matching pip.  
+For some recent node versions or branches, Python 3.6 may be needed.
+
+If you need to install a version above what your system ships with, it's recommended to use pyenv.  
+https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get#865569  
+Pyenv allows you to install many versions of python on a single machine without messgin with the default one, used by the system.
  
 > In order to check your python version , use `python3 --version`
 
@@ -34,29 +39,28 @@ It's advised to use the releases rather than current git code.
 Current github code may contain untested features and code. 
 
 Head over to the official Bismuth Github repo, releases: https://github.com/hclivess/Bismuth/releases  
-Unless you need a specific version, pick the latest one. As for now, this is 4.2.2.7.  
-Copy the link of the "Source Code (tar.gz)" file. Mine is https://github.com/hclivess/Bismuth/archive/4.2.2.7.tar.gz
+Unless you need a specific version, pick the latest one. As for now, this is 4.2.5.1.  
+Copy the link of the "Source Code (tar.gz)" file. Mine is https://github.com/hclivess/Bismuth/archive/4.2.5.1.tar.gz
 
 Back to your Ubuntu box, fetch the file where you want it installed, like your home dir, and extract it:
 ```
 cd
-wget https://github.com/hclivess/Bismuth/archive/4.2.2.7.tar.gz
-tar -zxvf 4.2.2.7.tar.gz
+wget https://github.com/hclivess/Bismuth/archive/4.2.5.1.tar.gz
+tar -zxvf 4.2.5.1.tar.gz
 ```
-It extracts itself under Bismuth-4.2.2.7
+It extracts itself under Bismuth-4.2.5.1
 
 ## Node only
 
 For a node only install, install the needed python modules:
 
 ```
-pip3 install simple-crypt --no-deps
-pip3 install PySocks pycryptodome
+pip3 install -r requirements-node.txt
 ```
 
 You may want to edit your config, or just run the node with defaults, and let it sync. Here, I first run a screen, then run the node inside the screen  
 ```
-screen -s NODE
+screen -S NODE
 python3 node.py
 ```
 Then no matter what happens to the ssh connection, I can find my running node when I need to with a `screen -x NODE`.  
@@ -67,21 +71,19 @@ Let your node sync. It will download the bootstrap ledger from the website, then
 ## Node and wallet
 
 The wallet does connect to a node.  
-So, in order to run your wallet you also need a running node.
+In order to run your wallet you used to also need a running node.  
+Nowadays, it's not needed anymore. The light wallet can connect to an online node.  
+It will try to connect to your local node first, then try online servers. That is, you don't need anymore a node nor a complete chain sync to run and use your wallet.
 
 Here are the python modules for the node again, from previous paragraph
 ```
-pip3 install simple-crypt --no-deps
-pip3 install PySocks pycryptodome
+pip3 install -r requirements-node.txt
 ```
 
 And here are the extra modules currently needed for the wallet:
 ```
-sudo apt install python3-tk
-pip3 install pillow pyqrcode
+pip3 install -r requirements.txt
 ```
-
-> I'm aware of `requirements.txt`, but as it's not always up to date, I prefer to list the individual commands instead.  I will edit once the files on github will be fully updated.
 
 ## OS config
 
@@ -130,7 +132,8 @@ sudo dpkg-reconfigure locales
 
 ## Node and wallet on distinct hosts
 
-TODO
+See config.txt, edit "light_ip" with a list of ip:port to try to connect to.
+The defaults are safe.
 
 ## Config file
 
@@ -151,3 +154,12 @@ remove python3-socks via apt, then upgrade pysocks via pip to version 1.6.8.
 One way of fixing this (on Ubuntu) is to run  
 `sudo apt install python3-pil.imagetk`  
 or just update pillow from pip to version 5.1.0 
+`pip3 install --upgrade pillow`
+
+### Older modules
+
+Make sur you don't use PIL (outdated)
+`pip3 remove PIL`
+neither pyCrypto (outdated, replaced by pycryptodome)
+`pip3 remove PyCrypto`
+

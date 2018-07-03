@@ -5,6 +5,7 @@
 Checklist :
 
 - 5658 port is open, no firewall, I can check it's available from the internet. for instance : https://www.yougetsignal.com/tools/open-ports/
+- host has its time net synced (important)
 
 Config.txt file:
 - config.txt, or config_custom.txt if you use it: I have at least 50 threads `thread_limit=75` is fine.  
@@ -17,7 +18,7 @@ If block height does not move, and you are behind (check http://bismuth.online f
 
 - close node
 - delete peers.txt, and replace by this file (official peers.txt from 4.2.1.9)
-https://github.com/hclivess/Bismuth/raw/4.2.1.9/peers.txt
+https://github.com/hclivess/Bismuth/raw/4.2.1.9/peers.txt  (note: update to more recent file)
 - relaunch node
 
 ## Innocuous log messages
