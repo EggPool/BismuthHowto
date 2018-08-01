@@ -15,10 +15,13 @@ https://www.topbtc.one/?invit=287072
 > So, even if you don't plan to vote, please register under this link.
 
 - Chose english as langage and go to the reg page.
+![reg page](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-reg-1.png)
 
 - enter your email twice, then click to get the validation code sent to your email.
+![reg page](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-reg-2.png)
 
 - once you get it, you can enter it and go on with the rest of the registration
+![reg page](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-reg-3.png)
 
 - pin is a pin code you chose, that will be required for placing trade orders.
 
@@ -38,22 +41,26 @@ ETH/TOPB pair is ok.
 - Go to finance / Deposit, 
 - select ETH
 - click to get your deposit address
+![deposit page](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-deposit-eth.png)
 - send some ETH to the exchange (min is 0.05)
 
 ### Trade for TOPB
 
 - go to Market, ETH/TOPB
 - fill the order in : amount of TOPB to buy, your pin code
+![buy topb](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-buy-topb.png)
 
 ## VOTE
 
 - go to the voting page
 - click only the "Bismuth" line
 - on the right, select how many votes you want to give. The amount you can give will depend if you chose free or paid voting, see below.
+![vote1](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-vote-1.png)
 
 - bottom, hit one of the buttons
+![vote2](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-vote-2.png)
 
-Read the voting rules, I write here what I understood, but check by yourself.
+Read the voting rules, I wrote here what I understood, but check by yourself.
 
 ### Free voting
 
