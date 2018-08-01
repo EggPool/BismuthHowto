@@ -76,7 +76,7 @@ Read the voting rules, I wrote here what I understood, but check by yourself.
 ## Conclusion
 
 This is a rare opportunity to be listed on a top exchange.  
-Even if BIS is not listed this week, TOPB wil lbe returned and we will have more luck next week.  
+Even if BIS is not listed this week, TOPB will be returned and we will have more luck next week.  
 So please, show you really want $BIS listed on good exchange and take some of your time to register with our link (no cost to you) and better, if you can afford and want to help bis, free (returned) or paid votes for BIS.
 
 Thank you!
