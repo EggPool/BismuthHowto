@@ -4,6 +4,7 @@ Top BTC is a top 20 exchange
 
 - More than 100M volume
 - Does *not* require KYC to start trading
+- They are larger than both Bittrex and Poloniex
 - seems fast and just works
 
 ## Registration
