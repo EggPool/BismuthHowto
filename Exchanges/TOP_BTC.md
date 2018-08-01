@@ -1,19 +1,17 @@
 # TOP BTC
 
-https://www.topbtc.one
-
 Top BTC is a top 20 exchange  
 
 - More than 100M volume
 - Does *not* require KYC to start trading
 - seems fast and just works
 
-## Registration
+## Registration
 
 Affiliate link if you don't have an account yet:  
 https://www.topbtc.one/?invit=287072
 
-3 TOPB per referer, all TOPB won this way will be exclusively used to get more votes for BIS.  
+3 TOPB per referer, *all TOPB won this way will be exclusively used to get more votes for BIS*.  
 So, even if you don't plan to vote, please register under this link.
 
 - Chose english as langage and go to the reg page.
@@ -68,7 +66,7 @@ Read the voting rules, I write here what I understood, but check by yourself.
 - paid votes TOPB will be returned if BIS does *not* win.
 - paid votes will *not* be returned if BIS win, but instead you may get rewards in BIS as airdrop for voters (To be announced)
 
-## Conclusion
+## Conclusion
 
 This is a rare opportunity to be listed on a top exchange.  
 Even if BIS is not listed this week, TOPB wil lbe returned and we will have more luck next week.  
