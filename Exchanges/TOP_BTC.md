@@ -15,6 +15,9 @@ https://www.topbtc.one/?invit=287072
 > 3 TOPB per referer, *all TOPB won this way will be exclusively used to get more votes for BIS*.  
 > So, even if you don't plan to vote, please register under this link.
 
+@bitsignal was kind enough to do a video of the whole process:  
+https://youtu.be/HlmgrTHCnYs
+
 - Chose english as langage and go to the reg page.
 ![reg page](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-reg-1.png)
 
