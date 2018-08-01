@@ -11,8 +11,8 @@ Top BTC is a top 20 exchange
 Affiliate link if you don't have an account yet:  
 https://www.topbtc.one/?invit=287072
 
-3 TOPB per referer, *all TOPB won this way will be exclusively used to get more votes for BIS*.  
-So, even if you don't plan to vote, please register under this link.
+> 3 TOPB per referer, *all TOPB won this way will be exclusively used to get more votes for BIS*.  
+> So, even if you don't plan to vote, please register under this link.
 
 - Chose english as langage and go to the reg page.
 
