@@ -32,7 +32,7 @@ To help more, you can actively vote:
 
 ## What do you need for voting?
 
-Only holders of TOPB, the excahnge token, are able to vote.  
+Only holders of TOPB, the exchange token, are able to vote.  
 If you have a new account there, you have no TOPB, so you need to buy some.  
 ETH/TOPB pair is ok.
 
@@ -52,12 +52,12 @@ ETH/TOPB pair is ok.
 
 ## VOTE
 
-- go to the voting page
-- click only the "Bismuth" line
-- on the right, select how many votes you want to give. The amount you can give will depend if you chose free or paid voting, see below.
+- go to the voting page  
+- click only the "Bismuth" line  
+- on the right, select how many votes you want to give. The amount you can give will depend if you chose free or paid voting, see below.  
 ![vote1](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-vote-1.png)
 
-- bottom, hit one of the buttons
+- bottom, hit one of the buttons  
 ![vote2](https://github.com/EggPool/BismuthHowto/blob/master/Exchanges/topbtc-vote-2.png)
 
 Read the voting rules, I wrote here what I understood, but check by yourself.
@@ -69,8 +69,8 @@ Read the voting rules, I wrote here what I understood, but check by yourself.
 
 ### Paid voting
 
-- 100 votes per TOPB. That is, 1 vote means minus 0.01 TPB in your account. If you have 1000 TPB, you can set 100000 votes on the bismuth line.
-- paid votes TOPB will be returned if BIS does *not* win.
+- 100 votes per TOPB. That is, 1 vote means minus 0.01 TPB in your account. If you have 1000 TPB, you can set 100000 votes on the bismuth line.  
+- paid votes TOPB will be returned if BIS does *not* win.  
 - paid votes will *not* be returned if BIS win, but instead you may get rewards in BIS as airdrop for voters (To be announced)
 
 ## Conclusion
