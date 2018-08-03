@@ -1,35 +1,36 @@
 # Bismuth Masternodes
 
-Yeah, everyone wants to have a Bismuth masternode.
+Yeah, everyone wants to have a Bismuth masternode.  
+Since those are very different from other masternodes, they are called "HyperNodes".
 
 ## When masternode?
 
 No kidding, with "When more exchanges", it's a really really frequent question.
 
-No ETA Yet.
-Masternodes are still at early developpment stage, no features nor requirements are announced yet.
+No official ETA Yet, but things move fast.
 
 ## How much will a Masternode cost?
 
-Nothing was officially announced.  
-There are rumors of 10 000 BIS, and the official twitter once said "We don't know yet, but it will not be lower than 10K Bis".
+There were rumors of 10 000 BIS, and the official twitter once said "We don't know yet, but it will not be lower than 10K Bis".  
+It has now be officially announced: Minimum colalteral is 10K $BIS.  
+But you can also - with a single HyperNode install - freeze 20K or 30K and then get 2x or 3x the rewards.
 
-## What will I earn with a Bismuth Masternode?
+## What will I earn with a Bismuth Hypernode?
 
-Dunno.
-Nobody knows yet.
+ROI, profitability scenarios To Be Announced.
 
-## What will the technical requirements for a masternode be?
+## What will the technical requirements for a Hypernode be?
 
-Dunno.
-Nobody knows yet.
+More has been posted lately:  
+Bismuth HyperNodes FAQ
+https://github.com/bismuthfoundation/masternodes/blob/master/doc/HyperNodes_FAQ.md
 
 ## What do we know?
 
-* MN will operate on a separate PoS chain
+* HN will operate on a separate PoS chain
 * The PoS chain has no currency, it's used to collect metrics and do stats/validation/provide services.
-* The MN will also act as a "cutting edge" real world test bench, with new techniques being tested.
-* MN are still funded by BIS collateral, no new currency, no change for users/wallets/exchanges.
+* The HN will also act as a "cutting edge" real world test bench, with new techniques being tested.
+* HN are still funded by BIS collateral, no new currency, no change for users/wallets/exchanges.
 
 * The mining algo and PoW chain won't change. But a more recent/secure hash could be used for PoS chain hash and signatures.
 
@@ -45,3 +46,6 @@ Quoted from bitcointalk thread:
 > 
 > So the MN implementation will not just be a "ping" test like on some coins, but would embed, from the start, innovative and secure algorithms.
 > All this is being evaluated, coded, documented, tested by the team.
+
+See also Bismuth HyperNodes Roadmap
+https://github.com/bismuthfoundation/masternodes/blob/master/doc/HyperNodes_Roadmap.md
