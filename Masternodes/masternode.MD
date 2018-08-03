@@ -1,7 +1,8 @@
 # Bismuth Masternodes
 
 Yeah, everyone wants to have a Bismuth masternode.  
-Since those are very different from other masternodes, they are called "HyperNodes".
+Since those are very different from other masternodes, they are called "HyperNodes".  
+Latest update of this doc : August 3, 2018.
 
 ## When masternode?
 
