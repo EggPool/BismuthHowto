@@ -85,6 +85,16 @@ And here are the extra modules currently needed for the wallet:
 pip3 install -r requirements.txt
 ```
 
+If you want to run Bismuth-wallet on Ubuntu 18.04, you additionally need to install
+```
+sudo apt install python3-tk
+```
+
+If you want to test wallet_async.py (should perform better, due to non blocking behaviour when wallet gets information form node or wallet-server), you need to add:
+```
+pip3 install tornado
+```
+
 ## OS config
 
 ### limits
