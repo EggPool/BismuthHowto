@@ -39,16 +39,16 @@ It's advised to use the releases rather than current git code.
 Current github code may contain untested features and code. 
 
 Head over to the official Bismuth Github repo, releases: https://github.com/hclivess/Bismuth/releases  
-Unless you need a specific version, pick the latest one. As for now, this is 4.2.5.1.  
-Copy the link of the "Source Code (tar.gz)" file. Mine is https://github.com/hclivess/Bismuth/archive/4.2.5.1.tar.gz
+Unless you need a specific version, pick the latest one. As for now, this is 4.2.6.  
+Copy the link of the "Source Code (tar.gz)" file. Mine is https://github.com/hclivess/Bismuth/archive/4.2.6.tar.gz
 
 Back to your Ubuntu box, fetch the file where you want it installed, like your home dir, and extract it:
 ```
 cd
-wget https://github.com/hclivess/Bismuth/archive/4.2.5.1.tar.gz
-tar -zxvf 4.2.5.1.tar.gz
+wget https://github.com/hclivess/Bismuth/archive/4.2.6.tar.gz
+tar -zxvf 4.2.6.tar.gz
 ```
-It extracts itself under Bismuth-4.2.5.1
+It extracts itself under Bismuth-4.2.6
 
 ## Node only
 
