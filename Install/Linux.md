@@ -102,7 +102,7 @@ On the node box, be sure to have enough files limits (replace root by the user t
 nano /etc/security/limits.conf
 root soft nofile 65535
 root hard nofile 65535
-...
+```
 
 ```
 nano /etc/sysctl.conf
