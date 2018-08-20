@@ -98,7 +98,7 @@ pip3 install tornado
 
 ### limits
 On the node box, be sure to have enough files limits (replace root by the user the node will run under)
-...
+```
 nano /etc/security/limits.conf
 root soft nofile 65535
 root hard nofile 65535
